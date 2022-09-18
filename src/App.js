@@ -19,7 +19,7 @@ export default () => {
         <div >
           <BrowserRouter>
             <Switch>
-            <Route exact path="/" component={LandingPage} />
+              <Route exact path="/" component={LandingPage} />
               <PrivateRoute exact path="/" component={LandingPage} />
               < Route path="/signup" component={TerraFormerSignup} />
               < Route path="/login" component={TeraFormerLogin} />
