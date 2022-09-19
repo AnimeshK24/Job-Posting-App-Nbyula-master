@@ -79,8 +79,8 @@ const Home = () => {
 
     <ThemeProvider theme={theme}>
       <Header disable={false} openNewJobModal={() => setNewJobModal(true)} />
-      <div ><Button variant="contained" className={classes.button} onClick={handleLogout}>Logout</Button>
-      </div>
+      {/* <div ><Button variant="contained" className={classes.button} onClick={handleLogout}>Logout</Button>
+      </div> */}
       <NewJobModal closeModal={() => setNewJobModal(false)} newJobModal={newJobModal} postJob={postJob} />
       <ViewJobModal job={viewJob} closeModal={() => setViewJob({})} />
 
